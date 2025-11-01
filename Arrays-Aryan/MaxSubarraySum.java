@@ -46,7 +46,8 @@ public class MaxSubarraySum {
             if (currSum < 0) {
                 currSum = 0;  // reset if current sum is negative
 
-                    }}
+            }
+        }
         return maxSum;
     }
 
