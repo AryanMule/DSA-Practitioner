@@ -1,1 +1,1 @@
-findMin
+longestBrute
