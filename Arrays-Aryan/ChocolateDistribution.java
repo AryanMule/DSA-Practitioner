@@ -12,7 +12,7 @@ public class ChocolateDistribution {
         }
         Arrays.sort(arr);
         int minDiff = Integer.MAX_VALUE;
-        for (int i = 0; i + m - 1 < arr.length; i++) { // SLIDING WINDOR OF SIZE M 
+        for (int i = 0; i + m - 1 < arr.length; i++) { // SLIDING WINDOW OF SIZE M 
             int diff = arr[i + m - 1] - arr[i];
             if (diff < minDiff) {
                 minDiff = diff;
